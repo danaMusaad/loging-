@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.all{
+    background-image:url(pexels-pixabay-68507.jpg) ;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    background-color: rgba(255, 255, 255, 0.7); /* رمادي فاتح مع شفافية */
+    padding: 40px;
+    border-radius: 15px;
+    width: 350px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+
+h2 {
+    font-size: 40px;
+    text-align: center;   
+    margin-bottom: 20px;  
+}
+
+.inputbox{
+ display: flex;
+ flex-direction: column;
+}
+
+.inputbox input {
+    width: 100%; 
+    height: 25px;
+    padding: 10px;
+    margin-bottom: 10px;  
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    outline: none;
+    font-size: 14px;
+}
+
+.register{
+    font-size: 15px;
+    text-align: center;
+}
+
+
+.but{
+    width: 100px;
+    height: 23px;
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+.but:hover{
+    color: blue;
+}
+
+.password-wrapper{
+  position: relative;
+  
+}
+
+.password-wrapper input{
+    width: 100%;
+    padding-right: 40px; 
+    border-radius: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+  }
+
+  .password-wrapper span {
+    position: absolute;
+    right: 1px;
+    top: 40%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    font-size: 15px;
+  }
+
+.msg{
+    font-weight: bold;
+    margin: 10px;
+    margin-top: 3px;
+}
+
+
+
